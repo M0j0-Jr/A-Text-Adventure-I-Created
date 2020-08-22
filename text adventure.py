@@ -1,0 +1,112 @@
+import time
+import random
+
+
+rng = random.random() * 2.0000
+print("Hello, This is unfinished but i will release it anyways.")
+time.sleep(0.1)
+print("So some choices may be broken, unfinished, etc.")
+time.sleep(0.1)
+print("It's called Potato World because I didn't know what to call it.")
+time.sleep(0.1)
+print("The name will be changed in the future")
+time.sleep(0.1)
+print("Anyways type anything to continue")
+time.sleep(0.1)
+desclaimer = input("")
+time.sleep(0.1)
+print("")
+print("What is your name?")
+time.sleep(0.1)
+name = input("Enter Your Name:")
+time.sleep(0.1)
+print("Hello there " + name + "!")
+time.sleep(0.1)
+print("Welcome To Potato World! Type Any Key To Begin!")
+time.sleep(0.1)
+begin = input("Start?")
+time.sleep(0.1)
+if begin == input == "start":
+    time.sleep(0.1)
+    print("lol you failed")
+    time.sleep(0.1)
+else:
+    time.sleep(0.1)
+    print("You are in the middle of nowhere, you woke up not remembering how you got there, its almost night time and you need to find shelter ahead of you there is a two way road.")
+    time.sleep(0.1)
+    print("There is a old cabin on a hill with smoke coming out of the chimney on the left, there is a cave on the right ")
+print("Which way will you go?")
+time.sleep(0.1)
+choice1begin = input("left or right? (No Caps)")
+time.sleep(0.1)
+if choice1begin == "left":
+    print("You walk over to the cabin, you see a shadow sitting in a chair")
+    time.sleep(0.1)
+    print("The Door Is unlocked.")
+    time.sleep(0.1)
+    print("Should you go to the cave or continue inside?")
+    time.sleep(0.1)
+    choice2house = input("Go Inside Or Go To the cave (Type inside or cave without caps)")
+    time.sleep(0.1)
+    if choice2house == "inside":
+        print("You walk inside but you hear footsteps, and the click of a handgun.")
+        time.sleep(0.1)
+        print("The Shadow pops out around from the corner pointing the gun at you")
+        time.sleep(0.1)
+        print("Should you Talk or Attack? (type talk or attack with no caps)")
+        time.sleep(0.1)
+        choice3housefit = input("talk or attack?")
+        if choice3housefit == "talk":
+            print("You try to talk to him.")
+            time.sleep(0.1)
+            print("He replies with " + "This is private property kiddo.")
+            time.sleep(0.1)
+            print("you try to get out but he shoots you in the back of the head")
+            time.sleep(0.1)
+            print("You die thankfully quickly and painlessly")
+            time.sleep(0.1)
+            print("Game Over")
+        elif choice3housefit == "attack":
+        
+            time.sleep(0.1)
+            print("It was a tough fight but you won by taking his handgun and killed him")
+            time.sleep(0.1)
+            print("the gun had 1 bullet left in the magizine.")
+            time.sleep(0.1)
+            print("Should you loot his place or leave? (type loot or leave with no caps)")
+            choice4homeskedaddle = input("loot or leave?")
+            if choice4homeskedaddle == "loot":
+                print("You roam around the house.")
+                time.sleep(0.1)
+                print("you find a safe with a keypad.")
+
+            elif choice4homeskedaddle == "leave":
+                print("You leave the cabin")
+                time.sleep(0.1)
+                print("there is a bear outside!")
+                time.sleep(0.1)
+                print("should you kill the bear?")
+                time.sleep(0.1)
+                choice4homeoutbear = input("yes or no?")
+                if choice4homeoutbear == "yes":
+                    print("You shoot the bear")
+                    time.sleep(0.1)
+                    print("It howls in pain!")
+                    time.sleep(0.1)
+                    print("it tries to kill you but you run inside")
+                    time.sleep(0.1)
+                    print("the bear bleeds out and dies.")
+                    time.sleep(0.1)
+                    print("end of line")
+                 
+            
+
+    elif choice2house == "cave":
+        print("You decide to not enter, but a wolf showed up!")
+        time.sleep(0.1)
+        print("The wolf bit off your arm and you died from blood loss")
+        time.sleep(0.1)
+        print("Game Over")
+elif choice1begin == "right":
+    print("you go to the cave, it's damp and dark in here. you found a lighter in your pocket, so that will help.")
+    time.sleep(0.1)
