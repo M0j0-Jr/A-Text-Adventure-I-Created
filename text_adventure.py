@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import time
 import random
 
@@ -67,7 +69,7 @@ if choice1begin == "left":
             time.sleep(0.1)
             print("Game Over")
         elif choice3housefit == "attack":
-        
+
             time.sleep(0.1)
             print("It was a tough fight but you won by taking his handgun and killed him")
             time.sleep(0.1)
@@ -98,8 +100,8 @@ if choice1begin == "left":
                     print("the bear bleeds out and dies.")
                     time.sleep(0.1)
                     print("end of line")
-                 
-            
+
+
 
     elif choice2house == "cave":
         print("You decide to not enter, but a wolf showed up!")
